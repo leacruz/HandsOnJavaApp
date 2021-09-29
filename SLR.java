@@ -1,16 +1,16 @@
 /**
  * SimpleLinearRegression(SLR)
  */
-public class SimpleLinearRegression {
+public class SLR {
 
   punto a;
   
-  public SimpleLinearRegression(){
+  public SLR(){
     a.A = 1f;
     a.B = 3f;
   } 
 
-  public SimpleLinearRegression(float B1, float B2){
+  public SLR(float B1, float B2){
     a.A = B1;
     a.B = B2;
   }
