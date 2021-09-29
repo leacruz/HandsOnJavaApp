@@ -2,16 +2,16 @@
 *  Creacion de la clase punto, sirve para que sea mas presentable y con mas control de los puntos que estan en el diagrama de dispercion
 */
 public class punto {
-    float A;
-    float B; 
+    float X;
+    float Y; 
 
     public punto() {
-        A = 0;
-        B = 0;
+        X = 0;
+        Y = 0;
     }
 
-    public punto(float PointA, float PointB){
-        A = PointA;
-        B = PointB;
+    public punto(float PointX, float PointY){
+        X = PointX;
+        Y = PointY;
     }
 }
